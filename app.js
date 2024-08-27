@@ -5,6 +5,10 @@ app.get("/", (req, res) => {
   res.send("Welcome to AWS tutorial by Shivam Bhadani");
 })
 
+app.get("/product", (req, res) => {
+  res.send("This is Product Page");
+})
+
 app.get("/health", (req, res) => {
   res.send("Everything is OK");
 })
